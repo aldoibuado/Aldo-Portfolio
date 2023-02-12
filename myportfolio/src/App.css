@@ -1,0 +1,143 @@
+/* @font-face {
+  font-family: 'stranger_back_in_the_nightRg';
+  src: url('../fonts/StrangerBackInTheNight-VB0B.ttf') format('woff2'),
+       url('../fonts/StrangerBackInTheNight-VB0B.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'big_scream_straightregular';
+  src: url('../fonts/BigScreamStraight-1Ge4B.ttf') format('woff2'),
+       url('../fonts/BigScreamStraight-1Ge4B.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'midnite_hourregular';
+  src: url('../fonts/MidniteHour-MMwr.ttf') format('woff2'),
+       url('../fonts/MidniteHour-MMwr.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'chainsawregular';
+  src: url('../fonts/Chainsaw-X3jKG.otf') format('woff2'),
+       url('../fonts/Chainsaw-X3jKG.otf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'crotah_free_versionitalic';
+  src: url('../fonts/CrotahFreeVersionItalic-z8Ev3.ttf') format('woff2'),
+       url('../fonts/CrotahFreeVersionItalic-z8Ev3.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'milterna_1_demoregular';
+  src: url('../fonts/Milterna1demo-BWZEB.otf') format('woff2'),
+       url('../fonts/Milterna1demo-BWZEB.otf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+} */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #60ACB8;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 40px;
+  font-family: 'crotah_free_versionitalic', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 10px;
+  color: white;
+}
+
+.hero {
+  /* background-image: url("../images/ddcpy4t-7bf5e1c5-a40c-4bae-baf6-c7a90192632b.png"); */
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h1, h2 {
+  font-size: 40px;
+  font-family: 'crotah_free_versionitalic', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+}
+
+p {
+  font-size: 20px;
+}
+
+/* placeholder images */
+img {
+  width: 300px;
+  padding: 20px;
+  height: auto;
+  border: 5px solid black;
+  
+}
+
+img.expand {
+  width: 900px;
+  padding: 20px;
+  height: 450px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+footer p {
+  font-size: 20px;
+  color: white;
+  left: 810px;
+  position: absolute;
+}
+
+/* media query for larger screens such as desktops */
+@media screen and (max-width: 992px) {
+  header {
+      background-color: #772014;
+  }
+}
+
+/* media query for smaller screens such as tablets and mobile phones */
+@media screen and (max-width: 768px) {
+  header {
+      background: #8ac4ff;
+  }
+  
+}

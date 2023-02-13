@@ -1,8 +1,8 @@
 import './App.css';
 import Header from './components/Header';
-import AboutMe from './components/AboutMe';
+import About from './components/About';
 import Work from './components/Work';
-import ContactMe from './components/ContactMe';
+import Contact from './components/Contact';
 import Resume from './components/Resume';
 
 
@@ -10,9 +10,9 @@ function App() {
   return (
     <div className="app">
      <Header />
-     {/* <AboutMe /> */}
+     <About />
      <Work />
-     <ContactMe />
+     <Contact />
      <Resume />
     </div>
   );

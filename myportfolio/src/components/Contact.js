@@ -1,7 +1,7 @@
-function ContactMe () {
+function Contact () {
     return (
         <section id="contact-me" class="contact-me">
-        <h2>Contact Me</h2>
+        <h2>Contact</h2>
         <p>My Email address is</p>
         <address>
           <a href="mailto:aldo.ibuado@gmail.com">aldo.ibuado@gmail.com</a>
@@ -10,4 +10,4 @@ function ContactMe () {
     )
 }
 
-export default ContactMe;
+export default Contact;

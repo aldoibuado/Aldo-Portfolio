@@ -3,13 +3,13 @@ function Navigation () {
         <nav>
         <ul>
           <li>
-            <a href="#about-me">About Me</a>
+            <a href="#about-me">About</a>
           </li>
           <li>
             <a href="#work">Work</a>
           </li>
           <li>
-            <a href="#contact-me">Contact Me</a>
+            <a href="#contact-me">Contact</a>
           </li>
           <li>
             <a href="#resume">Resume</a>

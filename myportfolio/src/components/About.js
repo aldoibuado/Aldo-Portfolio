@@ -1,7 +1,7 @@
-function AboutMe () {
+function About () {
     return (
         <section id="about-me" class="about-me">
-        <h2>About Me</h2>
+        <h2>About</h2>
         <p>
           My name is Aldo and I am currently embarking on a journey learning web
           development. I am currently working on some web applications that once
@@ -13,4 +13,4 @@ function AboutMe () {
     )
 }
 
-export default AboutMe;
+export default About;

@@ -59,7 +59,7 @@
 }
 
 body {
-  background-color: #60ACB8;
+  background: linear-gradient(to right, #66ccff 0%, #cc99ff 100%);
 }
 
 header {

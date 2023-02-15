@@ -1,20 +1,24 @@
 import './App.css';
-import Header from './components/Header';
-import About from './components/About';
-import Project from './components/Project';
-import Contact from './components/Contact';
-import Resume from './components/Resume';
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import About from './pages/About';
+import Project from './pages/Project';
+import Contact from './pages/Contact';
+import Resume from './pages/Resume';
+import Navigation from './components/Navigation';
 
 function App() {
   return (
-    <div className="app">
-     <Header />
-     <About />
-     <Project />
-     <Contact />
-     <Resume />
-    </div>
+   <div className='App'>
+    <Router>
+      <Navigation />
+      <Routes>
+        <Route path='/' element={<About />} />
+        <Route path='/project' element={<Project />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/resume' element={<Resume />} />
+      </Routes>
+    </Router>
+   </div>
   );
 }
 

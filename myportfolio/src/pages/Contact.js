@@ -55,7 +55,7 @@ function Contact() {
          type='email'
          placeholder='email'
          />
-         <input
+         <input className='inputbox'
          value={message}
          name='message'
          onChange={handleInputChange}

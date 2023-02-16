@@ -8,8 +8,12 @@ body {
   background: linear-gradient(to right, #66ccff 0%, #cc99ff 100%);
 }
 
-.profile {
-  height: 250px;
-  width: 240px;
-  border-radius: 50%;
+/* Styles for resume section */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-size: 20px;
 }

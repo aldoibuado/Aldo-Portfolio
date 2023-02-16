@@ -7,3 +7,9 @@ body {
   margin: 0;
   background: linear-gradient(to right, #66ccff 0%, #cc99ff 100%);
 }
+
+.profile {
+  height: 250px;
+  width: 240px;
+  border-radius: 50%;
+}

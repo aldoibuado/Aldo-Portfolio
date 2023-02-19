@@ -1,9 +1,6 @@
 import React, { useState } from 'react'
 import '../styles/Contact.css';
 
-// importing the helper function that will help check if the email is valid
-import { validateEmail } from '../utils/helpers';
-
 function Contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -27,10 +24,10 @@ function Contact() {
  const handleFormSubmit = (e) => {
   e.preventDefault();
 
-  if (!validateEmail(email)) {
-    setErrorMessage('Email is invalid');
-    return;
-  }
+  // if (!validateEmail(email)) {
+  //   setErrorMessage('Email is invalid');
+  //   return;
+  // }
 
   setName('');
   setEmail('');
@@ -39,8 +36,12 @@ function Contact() {
 
   return (
     <div>
+      <h1>Contact</h1>
       {/* <p>Contact {name}</p> */}
       <form className='form'>
+        <lable>
+          Name
+        </lable>
         <input
          value={name}
          name='name'
@@ -48,6 +49,9 @@ function Contact() {
          type='name'
          placeholder='name'
          />
+         <label>
+          Email
+         </label>
          <input 
          value={email}
          name='email'
@@ -55,6 +59,9 @@ function Contact() {
          type='email'
          placeholder='email'
          />
+         <label>
+          Message
+         </label>
          <input className='inputbox'
          value={message}
          name='message'

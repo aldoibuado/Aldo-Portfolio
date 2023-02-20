@@ -24,6 +24,8 @@
   The steps I took to create my portfolio is inputting npx create-react-app in the command line. The next step was inputting npm install and then npm start.
 
   ## Usage
+  ![React Portfolio](https://user-images.githubusercontent.com/109316738/219998393-ace03f13-ec10-40a3-9914-955de2368cf2.png)
+
   By clicking on the link https://aldoibuado.github.io/, the user will be able to access and see my portfolio. 
 
   ## License

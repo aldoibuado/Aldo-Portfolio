@@ -13,7 +13,7 @@ function Resume() {
         <br />
         <h2>Back-End Proficiencies</h2>
         <ul>
-          <li>For the Back-End, Node.js, Object-Oriented Programming (OOP), Express.js, SQL and Object-Relational Mapping (ORM). I also know NoSQL, React and MERN stack.</li>
+          <li>For the Back-End, Node.js, Object-Oriented Programming (OOP), Express.js, SQL and Object-Relational Mapping (ORM). I am currently working on becoming better with React and Mern stack.</li>
         </ul>
       </div>
     </div>

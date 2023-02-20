@@ -1,10 +1,12 @@
-function Project ({ name, image, alt, link, Github }) {
+import "../styles/Projects.css";
+
+function Project ({ name, image, alt, link, GitHub }) {
     return (
-       <div>
+       <div className='projects'>
         <h3>{name}</h3>
-        <img src={image} alt={alt} />
-        <a href={link}>Webiste link</a>
-        <a href={Github}>GitHub link</a>
+        <img className='projectphoto' src={image} alt={alt} />
+        <a className="weblink" href={link}>Website link</a>
+        <a className="gitlink" href={GitHub}>GitHub link</a>
        </div>
     )
 }

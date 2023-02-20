@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/Aldo-Portfolio/static/css/main.0d203a58.css",
-    "main.js": "/Aldo-Portfolio/static/js/main.60a83118.js",
+    "main.css": "/Aldo-Portfolio/static/css/main.2d4d97bd.css",
+    "main.js": "/Aldo-Portfolio/static/js/main.1c1ee7d8.js",
     "static/js/787.1f11dfe9.chunk.js": "/Aldo-Portfolio/static/js/787.1f11dfe9.chunk.js",
     "static/media/Rock On.png": "/Aldo-Portfolio/static/media/Rock On.21167f5b1c69fa6c2820.png",
     "static/media/Aldo-profile.jpg": "/Aldo-Portfolio/static/media/Aldo-profile.2acdbcfc70e5efdeb2ac.jpg",
+    "static/media/Team Profile Generator.png": "/Aldo-Portfolio/static/media/Team Profile Generator.e7882de99d2a9568a23e.png",
+    "static/media/Rate Your Roommate.png": "/Aldo-Portfolio/static/media/Rate Your Roommate.982594f1084d6541a4f8.png",
+    "static/media/Work Day Scheduler.png": "/Aldo-Portfolio/static/media/Work Day Scheduler.1c37e77a54659bc9a07f.png",
+    "static/media/password generator.png": "/Aldo-Portfolio/static/media/password generator.9c79287c95496f6d351d.png",
+    "static/media/Note Taker.png": "/Aldo-Portfolio/static/media/Note Taker.5f6bf0a11d8272dc5c09.png",
     "index.html": "/Aldo-Portfolio/index.html",
-    "main.0d203a58.css.map": "/Aldo-Portfolio/static/css/main.0d203a58.css.map",
-    "main.60a83118.js.map": "/Aldo-Portfolio/static/js/main.60a83118.js.map",
+    "main.2d4d97bd.css.map": "/Aldo-Portfolio/static/css/main.2d4d97bd.css.map",
+    "main.1c1ee7d8.js.map": "/Aldo-Portfolio/static/js/main.1c1ee7d8.js.map",
     "787.1f11dfe9.chunk.js.map": "/Aldo-Portfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d203a58.css",
-    "static/js/main.60a83118.js"
+    "static/css/main.2d4d97bd.css",
+    "static/js/main.1c1ee7d8.js"
   ]
 }

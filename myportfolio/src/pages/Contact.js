@@ -5,7 +5,7 @@ function Contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
  const [message, setMessage] = useState('');
- const [errorMessage, setErrorMessage] = useState('');
+//  const [errorMessage, setErrorMessage] = useState('');
 
  const handleInputChange = (e) => {
   const { target } = e;
@@ -74,11 +74,11 @@ function Contact() {
           Submit
          </button>
       </form>
-      {errorMessage && (
+      {/* {errorMessage && (
         <div>
           <p className='error-text'>{errorMessage}</p>
-        </div>
-      )}
+        </div> */}
+      {/* )} */}
     </div>
   )
 }

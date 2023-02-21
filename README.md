@@ -26,7 +26,7 @@
   ## Usage
   ![React Portfolio](https://user-images.githubusercontent.com/109316738/219998393-ace03f13-ec10-40a3-9914-955de2368cf2.png)
 
-  By clicking on the link https://aldoibuado.github.io/, the user will be able to access and see my portfolio. 
+  By clicking on the link https://aldoibuado.github.io/Aldo-Portfolio/, the user will be able to access and see my portfolio. 
 
   ## License
   ![badge](https://img.shields.io/badge/license-MIT-brightgreen) <br/>

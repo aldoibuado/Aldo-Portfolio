@@ -6,6 +6,7 @@ import notetaker from '../assets/images/Note Taker.png';
 import scheduler from '../assets/images/Work Day Scheduler.png';
 import password from '../assets/images/password generator.png';
 import team from '../assets/images/Team Profile Generator.png';
+import website from '../assets/images/The Red Place.png';
 
 const projects = [
     {
@@ -50,6 +51,13 @@ const projects = [
         link: 'https://www.youtube.com/watch?v=b58yPo8uj8U',
         GitHub: 'https://github.com/aldoibuado/Team-Profile-Gen',
     },
+    {
+       name: 'The Red Place',
+       image: website,
+       alt: 'restaurant website',
+       link: 'https://the-red-place.herokuapp.com/',
+       GitHub: 'https://github.com/jhlynn95/The-Red-Place',
+    }
 ]
 
 function Projects () {

@@ -11,7 +11,7 @@ function contact() {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <AiTwotoneMail />
+            <AiTwotoneMail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>aldo.ibuado@gmail.com</h5>
             <a href="mailto:aldo.ibuado@gmail.com" target="_blank" rel='noreferrer'>Send me a message</a>

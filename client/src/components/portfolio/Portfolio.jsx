@@ -1,5 +1,6 @@
 import React from 'react';
 import img from '../../assets/Alita.jpeg';
+import '../../components/portfolio/portfolio.css';
 
 function Portfolio() {
   return (
@@ -13,48 +14,60 @@ function Portfolio() {
             <img src={img} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
-          <a href="https://github.com" className="btn" target='_blank'>Github</a>
-          <a href="https://github.com" className="btn btn-primary" target="_blank">Demo</a>
+          <div className='portfolio__item-cta'>
+          <a href="https://github.com" className="btn" target='_blank' rel='noreferrer'>Github</a>
+          <a href="https://github.com" className="btn btn-primary" target="_blank" rel='noreferrer'>Demo</a>
+          </div>
         </article>
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
             <img src={img} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
-          <a href="https://github.com" className="btn" target='_blank'>Github</a>
-          <a href="https://github.com" className="btn btn-primary" target="_blank">Demo</a>
+          <div className='portfolio__item-cta'>
+          <a href="https://github.com" className="btn" target='_blank' rel='noreferrer'>Github</a>
+          <a href="https://github.com" className="btn btn-primary" target="_blank" rel='noreferrer'>Demo</a>
+          </div>
         </article>
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
             <img src={img} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
-          <a href="https://github.com" className="btn" target='_blank'>Github</a>
-          <a href="https://github.com" className="btn btn-primary" target="_blank">Demo</a>
+          <div className='portfolio__item-cta'>
+          <a href="https://github.com" className="btn" target='_blank' rel='noreferrer'>Github</a>
+          <a href="https://github.com" className="btn btn-primary" target="_blank" rel='noreferrer'>Demo</a>
+          </div>
         </article>
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
             <img src={img} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
-          <a href="https://github.com" className="btn" target='_blank'>Github</a>
-          <a href="https://github.com" className="btn btn-primary" target="_blank">Demo</a>
+          <div className='portfolio__item-cta'>
+          <a href="https://github.com" className="btn" target='_blank' rel='noreferrer'>Github</a>
+          <a href="https://github.com" className="btn btn-primary" target="_blank" rel='noreferrer'>Demo</a>
+          </div>
         </article>
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
             <img src={img} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
-          <a href="https://github.com" className="btn" target='_blank'>Github</a>
-          <a href="https://github.com" className="btn btn-primary" target="_blank">Demo</a>
+          <div className='portfolio__item-cta'>
+          <a href="https://github.com" className="btn" target='_blank' rel='noreferrer'>Github</a>
+          <a href="https://github.com" className="btn btn-primary" target="_blank" rel='noreferrer'>Demo</a>
+          </div>
         </article>
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
             <img src={img} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
-          <a href="https://github.com" className="btn" target='_blank'>Github</a>
-          <a href="https://github.com" className="btn btn-primary" target="_blank">Demo</a>
+          <div className='portfolio__item-cta'>
+          <a href="https://github.com" className="btn" target='_blank' rel='noreferrer'>Github</a>
+          <a href="https://github.com" className="btn btn-primary" target="_blank" rel='noreferrer'>Demo</a>
+          </div>
         </article>
       </div>
     </section>

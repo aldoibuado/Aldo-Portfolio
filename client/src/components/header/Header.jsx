@@ -1,6 +1,6 @@
 import React from 'react';
 import CTA from './CTA';
-import photo from '../../assets/Alita.png';
+import photo from '../../assets/images/Aldo.jpg';
 import HeaderSocials from './HeaderSocials';
 import "./header.css";
 
